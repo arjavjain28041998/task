@@ -154,8 +154,8 @@ GEM
     omniauth-rails_csrf_protection (1.0.0)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
-    omniauth-spotify (0.0.13)
-      omniauth-oauth2 (~> 1.1)
+    omniauth-spotify-oauth2 (1.0.1)
+      omniauth-oauth2 (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
     public_suffix (4.0.6)
@@ -277,7 +277,7 @@ DEPENDENCIES
   omniauth-facebook
   omniauth-linkedin-oauth2
   omniauth-rails_csrf_protection
-  omniauth-spotify
+  omniauth-spotify-oauth2
   pg (~> 1.1)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
