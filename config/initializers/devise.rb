@@ -20,6 +20,9 @@ Devise.setup do |config|
   config.omniauth :facebook, "135761675263912", "51d81fdd3a883dfcd28e51e1b56b040b", callback_url: "http://localhost:3000/users/auth/facebook/callback"
   # config.omniauth :facebook, "135761675263912", "51d81fdd3a883dfcd28e51e1b56b040b", token_params: { parse: :json }
   config.omniauth :linkedin, "78udy7vdxud6p9", "19HJu6pHTdSaHn7e", callback_url: "http://localhost:3000/users/auth/linkedin/callback"
+
+  config.omniauth :spotify, "d9ed75bf08f04f88aef8976c2a21baa7", "7ed5df5bc3484d0ba7cf1ebe54112b39", callback_url: "http://localhost:3000/users/auth/spotify/callback"
+  
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
